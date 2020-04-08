@@ -3,7 +3,7 @@
 const body = document.querySelector('body');
 const books = document.querySelector('.books');
 const book = document.querySelectorAll('.book');
-document.body.style.backgroundImage = 'url(image/open_book.jpg)';
+document.body.style.backgroundImage = 'url(image/you-dont-know-js.jpg)';
 
 book[2].before(book[5]);
 book[5].before(book[3]);
